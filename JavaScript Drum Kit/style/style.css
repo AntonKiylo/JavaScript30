@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+	background: url('../asset/unnamed.jpg') no-repeat;
+	background-size: cover;
+}
+
 #wrapper {
   display: flex;
   justify-content: center;
