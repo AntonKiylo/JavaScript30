@@ -1,0 +1,28 @@
+:root {
+  --color: #ffc600;
+  --spacing: 5px;
+  --blur: 10px
+}
+
+body {
+  text-align: center;
+}
+
+span {
+  color: var(--color);
+}
+
+.wrapper {
+  margin-bottom: 40px;
+}
+
+input {
+  margin-right: 30px;
+}
+
+img {
+  border-style: solid;
+  border-width: var(--spacing);
+  border-color: var(--color);
+  filter: blur(var(--blur));
+}
